@@ -3,6 +3,7 @@ body {
     background-image: url('bg.jpg');
     background-size: cover;
     background-position: bottom;
+    text-align: center;
 }
 
 form input {
@@ -12,7 +13,7 @@ form input {
     min-width: 15%;
     border-radius: 5px;
     margin-top: 1.2rem;
-    margin-top: 0.3rem;
+    margin-right: 0.2rem;
     padding-right: 1em;
     padding-left: 3em;
     border: none;
@@ -39,7 +40,6 @@ input::placeholder {
 }
 
 div .changebg {
-
     background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -64,11 +64,12 @@ h2 {
     font-style: italic;
     letter-spacing: 0.2rem;
     text-shadow: 2px 3px #18224b;
+    display: inline-block;
 }
 
 p {
     color: white;
-    font-size: 19px;
+    font-size: 1rem;
     font-weight: bold;
     font-stretch: expanded;
 }
@@ -93,4 +94,83 @@ button:hover {
     background: black;
     color: white;
     font-weight: bold;
+}
+
+@media (max-width:760px) {
+
+    button {
+        min-height: 1.5rem;
+        max-width: 0.5rem;
+        font-size: 0.7rem;
+        border-radius: 0.8rem;
+    }
+
+    form input {
+        min-height: 1.5rem;
+        max-width: 6rem;
+        font-size: small;
+        font-size: 0.7rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-right: 0;
+    }
+
+    .h2 {
+        margin-left: 20rem;
+    }
+}
+
+@media (max-width:650px) {
+    h2 {
+        font-size: 1.4rem;
+    }
+}
+
+
+@media (max-width:600px) {
+    h2 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:535px) {
+    h2 {
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width:420px) {
+    h2 {
+        font-size: 0.2rem;
+    }
+
+    button {
+        min-height: 1.2rem;
+        max-width: 0.5rem;
+    }
+
+    form input {
+        min-height: 1.2rem;
+        max-width: 6rem;
+    }
+}
+
+@media (max-width:365px) {
+    h2 {
+        display: none;
+    }
+
+    .header {
+        margin-left: 2.5rem;
+    }
+
+    button {
+        min-height: 1.2rem;
+        max-width: 0.5rem;
+    }
+
+    form input {
+        min-height: 1.2rem;
+        max-width: 6rem;
+    }
 }
