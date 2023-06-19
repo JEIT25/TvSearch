@@ -12,7 +12,7 @@ form input {
     min-width: 15%;
     border-radius: 5px;
     align-self: flex-end;
-    margin-left: 36%;
+    margin-left: 25%;
     margin-top: 1.2rem;
     padding-right: 1em;
     padding-left: 3em;
@@ -58,7 +58,7 @@ h1 {
 h2 {
     color: white;
     font-style: italic;
-    margin-left: 10%;
+    margin-left: 5%;
     letter-spacing: 0.2rem;
     text-shadow: 2px 3px #18224b;
     display: inline-block;
