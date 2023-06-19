@@ -174,3 +174,33 @@ button:hover {
         max-width: 6rem;
     }
 }
+
+@media (max-width:280px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 0.7rem;
+        display: flex;
+        margin: 0;
+    }
+
+    button {
+        max-height: 1rem;
+        max-width: 1rem;
+    }
+
+    form input {
+        min-height: 1rem;
+        min-width: 1rem;
+        margin-right: 0.2rem;
+    }
+}
