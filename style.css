@@ -11,15 +11,12 @@ form input {
     min-height: 2.1em;
     min-width: 15%;
     border-radius: 5px;
-    align-self: flex-end;
-    margin-left: 10rem;
     margin-top: 1.2rem;
     padding-right: 1em;
     padding-left: 3em;
     border: none;
     outline: none;
     font-size: 16px;
-    display: inline-block;
 }
 
 input::placeholder {
@@ -49,6 +46,12 @@ div .changebg {
     background-color: white;
 }
 
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 h1 {
     color: white;
     text-align: center;
@@ -58,10 +61,8 @@ h1 {
 h2 {
     color: white;
     font-style: italic;
-    margin-left: 5%;
     letter-spacing: 0.2rem;
     text-shadow: 2px 3px #18224b;
-    display: inline-block;
 }
 
 p {
@@ -85,7 +86,6 @@ button {
     cursor: pointer;
     transition: hover 0.2s;
     border: 1px solid grey;
-    display: inline-block;
 }
 
 button:hover {
